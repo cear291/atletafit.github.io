@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATLETAFIT</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0288d1;
+            color: white;
+            padding: 1.5em 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            margin: 0;
+        }
+        nav ul li {
+            margin: 0 1em;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 1em;
+            display: block;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 3em 1em;
+            background-color: white;
+            margin: 2em auto;
+            width: 80%;
+            max-width: 1200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        section h2 {
+            color: #0288d1;
+            margin-top: 0;
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ATLETAFIT</h1>
+        <p>Tu guía para una vida más saludable y en forma</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#comida-saludable">Comida saludable</a></li>
+            <li><a href="#ejercicios">Cómo realizar ejercicios</a></li>
+            <li><a href="#plan-alimentacion">Plan de alimentación</a></li>
+            <li><a href="#plan-entrenamiento">Plan de entrenamiento</a></li>
+            <li><a href="#tips">Tips</a></li>
+            <li><a href="#dificultades-alimentacion">Dificultades en alimentación</a></li>
+            <li><a href="#ganar-masa-muscular">Ganar masa muscular</a></li>
+        </ul>
+    </nav>
+
+    <section id="comida-saludable">
+        <h2>Comida saludable</h2>
+        <img src="https://via.placeholder.com/1200x400?text=Comida+Saludable" alt="Comida Saludable">
+        <p>Una alimentación saludable es esencial para mantener un cuerpo y mente en óptimas condiciones. Aquí te ofrecemos una guía completa sobre cómo estructurar tu dieta diaria:</p>
+        <h3>Principios básicos</h3>
+        <ul>
+            <li><strong>Variedad:</strong> Incluye una amplia gama de alimentos para asegurarte de obtener todos los nutrientes necesarios.</li>
+            <li><strong>Balance:</strong> Equilibra la ingesta de proteínas, carbohidratos y grasas saludables.</li>
+            <li><strong>Moderación:</strong> Controla las porciones para evitar el exceso de calorías.</li>
+        </ul>
+        <h3>Alimentos recomendados</h3>
+        <p>Estos son algunos de los alimentos que deberías incluir regularmente en tu dieta:</p>
+        <ul>
+            <li>Frutas y verduras: Ricas en vitaminas, minerales y antioxidantes.</li>
+            <li>Proteínas magras: Pollo, pescado, legumbres y tofu.</li>
+            <li>Grasas saludables: Aguacate, nueces, semillas y aceite de oliva.</li>
+            <li>Carbohidratos complejos: Avena, arroz integral, quinoa y pan integral.</li>
+        </ul>
+        <h3>Ejemplo de menú diario</h3>
+        <p><strong>Desayuno:</strong> Avena con frutas y nueces.<br>
+           <strong>Almuerzo:</strong> Ensalada de pollo con verduras variadas.<br>
+           <strong>Cena:</strong> Salmón a la plancha con quinoa y espárragos.<br>
+           <strong>Snacks:</strong> Yogur natural, una pieza de fruta, o un puñado de almendras.</p>
+    </section>
+
+    <section id="ejercicios">
+        <h2>Cómo realizar ejercicios</h2>
+        <img src="https://via.placeholder.com/1200x400?text=Ejercicios" alt="Ejercicios">
+        <p>Realizar ejercicios de manera correcta es fundamental para evitar lesiones y maximizar los beneficios. Aquí te presentamos una guía completa sobre cómo realizar distintos tipos de ejercicios:</p>
+        <h3>Ejercicios cardiovasculares</h3>
+        <p>Los ejercicios cardiovasculares mejoran la resistencia y salud del corazón:</p>
+        <ul>
+            <li><strong>Correr:</strong> Mantén una postura erguida, aterriza suavemente con el medio pie y utiliza el braceo para equilibrar el movimiento.</li>
+            <li><strong>Bicicleta:</strong> Ajusta la altura del asiento para que tus piernas estén casi completamente extendidas al pedalear.</li>
+            <li><strong>Nadar:</strong> Practica diferentes estilos para trabajar distintos grupos musculares.</li>
+        </ul>
+        <h3>Entrenamiento de fuerza</h3>
+        <p>Fortalece tus músculos y huesos con estos ejercicios:</p>
+        <ul>
+            <li><strong>Sentadillas:</strong> Mantén los pies a la anchura de los hombros, baja manteniendo la espalda recta y las rodillas alineadas con los pies.</li>
+            <li><strong>Pesas:</strong> Asegúrate de usar una técnica adecuada y un peso que puedas manejar sin comprometer la forma.</li>
+            <li><strong>Flexiones:</strong> Coloca las manos a la altura de los hombros, mantén el cuerpo recto y baja controladamente hasta que el pecho casi toque el suelo.</li>
+        </ul>
+        <h3>Ejercicios de flexibilidad</h3>
+        <p>Mejoran el rango de movimiento y previenen lesiones:</p>
+        <ul>
+            <li><strong>Estiramientos estáticos:</strong> Mantén cada estiramiento por al menos 30 segundos sin rebotes.</li>
+            <li><strong>Yoga:</strong> Practica diferentes posturas para mejorar la flexibilidad y reducir el estrés.</li>
+            <li><strong>Pilates:</strong> Enfócate en el control del movimiento y la respiración para fortalecer el núcleo.</li>
+        </ul>
+    </section>
+
+    <section id="plan-alimentacion">
+        <h2>Plan de alimentación</h2>
+        <img src="https://via.placeholder.com/1200x400?text=Plan+de+Alimentacion" alt="Plan de Alimentación">
+        <p>Un plan de alimentación personalizado es clave para alcanzar tus objetivos, ya sea perder peso, ganar masa muscular o simplemente mantenerte saludable. Aquí te ofrecemos ejemplos de planes de alimentación según diferentes objetivos:</p>
+        <h3>Pérdida de peso</h3>
+        <ul>
+            <li><strong>Desayuno:</strong> Batido verde con espinacas, manzana, banana y semillas de chía.</li>
+            <li><strong>Almuerzo:</strong> Pechuga de pollo a la parrilla con ensalada de hojas verdes, tomate, pepino y aderezo de yogur.</li>
+            <li><strong>Cena:</strong> Sopa de verduras con una porción pequeña de arroz integral.</li>
+            <li><strong>Snacks:</strong> Zanahorias baby, una manzana, o un yogur griego sin azúcar.</li>
+        </ul>
+        <h3>Ganancia muscular</h3>
+        <ul>
+            <li><strong>Desayuno:</strong> Tortilla de claras de huevo con espinacas y queso bajo en grasa.</li>
+            <li><strong>Almuerzo:</strong> Filete de salmón con quinoa y brócoli al vapor.</li>
+            <li><strong>Cena:</strong> Pechuga de pollo con batata asada y espárragos.</li>
+            <li><strong>Snacks:</strong> Batido de proteínas, almendras, o requesón con frutas.</li>
+        </ul>
+    </section>
+
+    <section id="plan-entrenamiento">
+        <h2>Plan de entrenamiento</h2>
+        <img src="https://via.placeholder.com/1200x400?text=Plan+de+Entrenamiento" alt="Plan de Entrenamiento">
+        <p>Un plan de entrenamiento bien estructurado te ayudará a alcanzar tus objetivos de forma efectiva. Aquí te mostramos ejemplos de planes de entrenamiento según diferentes objetivos:</p>
+        <h3>Fuerza</h3>
+        <ul>
+            <li><strong>Lunes:</strong> Pecho y tríceps: Press de banca, fondos en paralelas, extensiones de tríceps.</li>
+            <li><strong>Miércoles:</strong> Espalda y bíceps: Dominadas, remo con barra, curl de bíceps.</li>
+            <li><strong>Viernes:</strong> Piernas y abdomen: Sentadillas, peso muerto, elevaciones de pierna.</li>
+        </ul>
+        <h3>Resistencia</h3>
+        <ul>
+            <li><strong>Martes:</strong> Circuito de alta intensidad: Burpees, jumping jacks, sprints cortos.</li>
+            <li><strong>Jueves:</strong> Bicicleta o correr a ritmo moderado durante 45 minutos.</li>
+            <li><strong>Sábado:</strong> Entrenamiento en cuestas o intervalos en pista.</li>
+        </ul>
+    </section>
+
+    <section id="tips">
+        <h2>Tips</h2>
+        <img src="https://via.placeholder.com/1200x400?text=Tips" alt="Tips">
+        <p>Consejos y trucos para sacar el máximo provecho de tu dieta y entrenamiento:</p>
+        <ul>
+            <li><strong>Hidratación:</strong> Bebe suficiente agua durante el día, especialmente antes y después de entrenar.</li>
+            <li><strong>Descanso:</strong> Asegúrate de dormir al menos 7-8 horas por noche para permitir la recuperación muscular.</li>
+            <li><strong>Consistencia:</strong> Mantén un horario regular para tus comidas y entrenamientos.</li>
+            <li><strong>Seguimiento:</strong> Lleva un registro de tu progreso para mantener la motivación y ajustar tu plan según sea necesario.</li>
+        </ul>
+    </section>
+
+    <section id="dificultades-alimentacion">
+        <h2>Dificultades en alimentación</h2>
+        <img src="https://via.placeholder.com/1200x400?text=Dificultades+en+Alimentacion" alt="Dificultades en Alimentación">
+        <p>Soluciones para superar dificultades comunes en la alimentación:</p>
+        <ul>
+            <li><strong>Falta de tiempo:</strong> Planifica tus comidas con antelación y prepara alimentos en lotes.</li>
+            <li><strong>Antojos:</strong> Opta por opciones más saludables y mantén snacks saludables a mano.</li>
+            <li><strong>Falta de variedad:</strong> Experimenta con nuevas recetas y alimentos para evitar la monotonía.</li>
+            <li><strong>Costos:</strong> Compra alimentos de temporada y en grandes cantidades para ahorrar dinero.</li>
+        </ul>
+    </section>
+
+    <section id="ganar-masa-muscular">
+        <h2>Ganar masa muscular</h2>
+        <img src="https://via.placeholder.com/1200x400?text=Ganar+Masa+Muscular" alt="Ganar Masa Muscular">
+        <p>Consejos específicos para personas con diferentes tipos de cuerpo que desean ganar masa muscular:</p>
+        <h3>Personas flacas</h3>
+        <ul>
+            <li><strong>Aumenta la ingesta calórica:</strong> Come más calorías de las que quemas para promover la ganancia de peso.</li>
+            <li><strong>Consume proteínas:</strong> Asegúrate de consumir suficiente proteína para apoyar el crecimiento muscular.</li>
+            <li><strong>Entrenamiento de fuerza:</strong> Enfócate en levantamientos compuestos como sentadillas, press de banca y peso muerto.</li>
+            <li><strong>Evita el cardio excesivo:</strong> Limita el ejercicio cardiovascular para evitar quemar demasiadas calorías.</li>
+        </ul>
+        <h3>Personas gordas</h3>
+        <ul>
+            <li><strong>Equilibrio calórico:</strong> Controla tu ingesta calórica para perder grasa mientras ganas músculo.</li>
+            <li><strong>Proteína alta:</strong> Mantén una dieta rica en proteínas para preservar la masa muscular.</li>
+            <li><strong>Entrenamiento de fuerza:</strong> Prioriza los ejercicios de resistencia para construir músculo y fuerza.</li>
+            <li><strong>Cardio moderado:</strong> Incluye ejercicios cardiovasculares moderados para mejorar la salud cardiovascular y ayudar en la pérdida de grasa.</li>
+        </ul>
+        <h3>Personas de contextura media</h3>
+        <ul>
+            <li><strong>Incremento calórico moderado:</strong> Aumenta gradualmente las calorías para ganar masa muscular sin acumular mucha grasa.</li>
+            <li><strong>Proteínas y carbohidratos:</strong> Equilibra tu ingesta de proteínas y carbohidratos para apoyar el entrenamiento y la recuperación.</li>
+            <li><strong>Entrenamiento equilibrado:</strong> Combina entrenamiento de fuerza con ejercicios de aislamiento para un desarrollo muscular balanceado.</li>
+            <li><strong>Seguimiento de progreso:</strong> Ajusta tu dieta y entrenamiento según tus resultados y metas.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ATLETAFIT. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Aquí puedes agregar JavaScript para dar más interactividad a tu página
+        document.addEventListener('DOMContentLoaded', function() {
+            // Ejemplo: cambiar el color de fondo al hacer clic en una sección
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                section.addEventListener('click', () => {
+                    section.style.backgroundColor = '#e0ffe0';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
